@@ -50,6 +50,7 @@ header {
     margin-left: 393px;
     margin-top: 53px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -73,6 +74,7 @@ header {
 .one-section {
     height: 835px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -118,6 +120,7 @@ header {
 .two-section .name {
     text-align: center;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 28px;
     padding-top: 64px;
@@ -139,6 +142,7 @@ header {
     font-size: 28px;
     color: var(--orange);
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -172,6 +176,7 @@ header {
 .three-section .name {
     text-align: center;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 28px;
     padding-top: 131px;
@@ -514,7 +519,7 @@ footer {
 .products .title {
     color: var(--orange);
     font-family: "Bowler", sans-serif;
-    font-weight: 600;
+    font-weight: 6
     font-size: 20px;
     margin-top: 33px;
     margin-bottom: 10px;
