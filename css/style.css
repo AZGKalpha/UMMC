@@ -526,6 +526,7 @@ footer {
 .products .title {
     color: var(--orange);
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 6
     font-size: 20px;
     margin-top: 33px;
