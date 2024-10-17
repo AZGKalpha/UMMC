@@ -280,6 +280,7 @@ header {
     text-align: center;
     font-size: 28px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
 }
 
@@ -321,6 +322,7 @@ header {
 .fio p {
     font-size: 18px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     color: var(--white);
     margin-top: 50px;
@@ -351,6 +353,7 @@ header {
 .email p {
     font-size: 18px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     color: var(--white);
     margin-top: 50px;
@@ -381,6 +384,7 @@ header {
 .topic p {
     font-size: 18px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     color: var(--white);
     margin-top: 50px;
@@ -417,6 +421,7 @@ textarea:focus {
     border-radius: 45px;
     width: 180px;
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 16px;
     background-color: var(--light-black);
@@ -469,6 +474,7 @@ footer {
 
 .contacts .title {
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     font-size: 20px;
     color: var(--orange);
@@ -498,6 +504,7 @@ footer {
 
 .about .title {
     font-family: "Bowler", sans-serif;
+    text-transform: uppercase;
     font-weight: 600;
     color: var(--orange);
     font-size: 20px;
