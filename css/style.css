@@ -1,0 +1,526 @@
+@font-face {
+    font-display: swap;
+    font-family: "Bowler";
+    src: url("/fonts/BOWLER.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+:root {
+    --orange: #EB7E1B;
+    --or-hover: #df9a5a;
+    --light-orange: #E48F42;
+    --black: #000000;
+    --light-black: #212121;
+    --white: #F8F4E7;
+}
+
+html {  
+    scroll-behavior: smooth;  
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+body {
+    background-color: var(--white);
+}
+
+header {
+    background-color: var(--light-black);
+    height: 120px;
+    display: flex;
+}
+
+.h-logo {
+    margin-left: 289px;
+    padding-top: 23px;
+}
+
+.menu {
+    display: flex;
+    height: 22px;
+    gap: 35px;
+    font-size: 20px;
+    margin-left: 393px;
+    margin-top: 53px;
+    font-family: "Bowler";
+}
+
+.menu a {
+    text-decoration: none;
+    color: var(--orange);
+    transition: 0.3s;
+}
+
+.menu a:hover {
+    color: var(--white);
+}
+
+.page_cable {
+    position: absolute;
+    z-index: -3;
+    margin-left: 262px;
+    padding-top: 620px;
+}
+
+.one-section {
+    height: 835px;
+    font-family: "Bowler";
+}
+
+.tablet {
+    margin-left: 479px;
+    margin-top: 65px;
+    position: absolute;
+    z-index: -1;
+}
+
+.cable {
+    margin-left: 986px;
+    margin-top: 280px;
+    position: absolute;
+    z-index: 1;
+}
+
+.one-section_text {
+    position: absolute;
+    z-index: 2;
+    margin-left: 529px;
+    margin-top: 228px;
+}
+
+.one-section_title {
+    color: var(--orange);
+    font-size: 48px;
+}
+
+.one-section_subtitle {
+    font-size: 28px;
+    margin-top: 50px;
+}
+
+.one-section_subtitle p {
+    margin-top: 26px;
+}
+
+.two-section {
+    height: 622px;
+}
+
+.two-section .name {
+    text-align: center;
+    font-family: "Bowler";
+    font-size: 28px;
+    padding-top: 64px;
+}
+
+.content-two {
+    display: flex;
+    text-align: center;
+    margin-left: 360px;
+}
+
+.content-two .card {
+    width: 400px;
+    height: 351px;
+    margin-top: 89px;
+}
+
+.card .title {
+    font-size: 28px;
+    color: var(--orange);
+    font-family: "Bowler";
+}
+
+.card .subtitle {
+    margin-top: 8px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.card .icon {
+    height: 180px;
+    width: 180px;
+    border-radius: 90px;
+    background-color: var(--light-black);
+    margin: 24px auto 0;
+}
+
+.card .icon img {
+    margin-top: 33px;
+}
+
+.e-tower {
+    width: 110px;
+}
+
+.three-section {
+    height: 660px;
+}
+
+.three-section .name {
+    text-align: center;
+    font-family: "Bowler";
+    font-size: 28px;
+    padding-top: 131px;
+}
+
+.content-three {
+    width: 985px;
+    height: 280px;
+    background-color: var(--light-orange);
+    border-radius: 15px;
+    margin: 50px auto 0;
+    display: flex;
+}
+
+.content-three .t {
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.content-three .text {
+    font-size: 20px;
+    margin-top: 14px;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+}
+
+.barcode {
+    width: 123px;
+    height: 240px;
+    background-color: var(--white);
+    border-radius: 10px;
+    margin-top: 22px;
+    margin-left: 122px;
+}
+
+.four-section {
+    height: 580px;
+    text-align: center;
+}
+
+.four-section .name {
+    font-family: "Bowler";
+    font-size: 28px;
+    padding-top: 80px;
+}
+
+.slider {
+    width: 870px;
+    height: 300px;
+    margin: 48px auto;
+}
+
+.splide__slide {
+    min-height: 300px;
+    min-width: 400px;
+    max-width: 400px;
+    background-color: var(--light-orange);
+    color: var(--light-black);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.splide__slide .name {
+    margin-top: -50px;
+}
+
+.splide__slide .text {
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.splide__slide .sm {
+    margin-top: 45px;
+}
+
+.splide__slide .sr {
+    margin-top: 35px;
+}
+
+.splide__arrows {
+    position: absolute;
+    width: 1070px;
+    margin-left: -100px
+}
+
+.splide__arrow {
+    margin-top: 145px;
+    background: none;
+}
+
+.five-section {
+    height: 685px;
+    padding-top: 150px;
+}
+
+.five-section .name {
+    text-align: center;
+    font-size: 28px;
+    font-family: "Bowler";
+}
+
+.five-section .content {
+    display: flex;
+    width: 881px;
+    height: 497px;
+    background-color: var(--light-orange);
+    margin: 33px auto 0;
+    border-radius: 40px;
+}
+
+.left-c {
+    width: 677px;
+    padding-left: 70px;
+}
+
+.fio {
+    display: flex;
+}
+
+.fio input {
+    width: 425px;
+    background-color: var(--light-orange);
+    border: none;
+    border-bottom: 2px solid var(--white);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    padding: 2px 5px;
+    color: var(--white);
+}
+
+.fio input:focus {
+    border-color: var(--light-black);
+    color: var(--light-black);
+}
+
+.fio p {
+    font-size: 18px;
+    font-family: "Bowler";
+    color: var(--white);
+    margin-top: 50px;
+    margin-left: 26px;
+}
+
+.email {
+    display: flex;
+}
+
+.email input {
+    width: 425px;
+    background-color: var(--light-orange);
+    border: none;
+    border-bottom: 2px solid var(--white);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    padding: 2px 5px;
+    color: var(--white);
+}
+
+.email input:focus {
+    border-color: var(--light-black);
+    color: var(--light-black);
+}
+
+.email p {
+    font-size: 18px;
+    font-family: "Bowler";
+    color: var(--white);
+    margin-top: 50px;
+    margin-left: 26px;
+}
+
+.topic {
+    display: flex;
+}
+
+.topic input {
+    width: 225px;
+    background-color: var(--light-orange);
+    border: none;
+    border-bottom: 2px solid var(--white);
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    margin-top: 45px;
+    padding: 2px 5px;
+    color: var(--white);
+}
+
+.topic input:focus {
+    border-color: var(--light-black);
+    color: var(--light-black);
+}
+
+.topic p {
+    font-size: 18px;
+    font-family: "Bowler";
+    color: var(--white);
+    margin-top: 50px;
+    margin-left: 26px;
+}
+
+textarea {
+    width: 475px;
+    background-color: var(--light-orange);
+    border-radius: 10px 10px 0 0;
+    border: none;
+    border-bottom: 2px solid var(--white);
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+    margin-top: 20px;
+    height: 110px;
+    padding: 2px 5px;
+    resize: none;
+}
+
+textarea:focus {
+    color: var(--light-black);
+    border-color: var(--light-black);
+    background-color: #aa73431f;
+}
+
+.button {
+    margin-left: 190px;
+    margin-top: 55px;
+}
+
+.button a {
+    border-radius: 45px;
+    width: 180px;
+    font-family: "Bowler";
+    font-size: 16px;
+    background-color: var(--light-black);
+    padding: 15px 32px;
+    color: var(--white);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.button a:hover {
+    color: var(--white);
+    background-color: #474747;
+}
+
+.right-c {
+    background-color: var(--light-black);
+    border-radius: 0 40px 40px 0;
+}
+
+.right-c img {
+    margin: 55px 40px;
+}
+
+footer {
+    height: 350px;
+    background-color: var(--light-black);
+}
+
+.f-top {
+    height: 284px;
+    display: flex;
+}
+
+.f-logo {
+    width: 288px;
+    margin-left: 290px;
+}
+
+.f-logo_f {
+    padding-top: 100px;
+}
+
+.f-logo_t {
+    width: 159px;
+}
+
+.contacts {
+    width: 447px;
+}
+
+.contacts .title {
+    font-family: "Bowler";
+    font-size: 20px;
+    color: var(--orange);
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+
+.contacts .subtitle {
+    text-decoration: none;
+    color: var(--orange);
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.contacts .time {
+    color: var(--orange);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+}
+
+.about {
+    width: 288px;
+}
+
+.about .title {
+    font-family: "Bowler";
+    color: var(--orange);
+    font-size: 20px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+
+.about a {
+    color: var(--orange);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.products {
+    width: 288px;
+}
+
+.products .title {
+    color: var(--orange);
+    font-family: "Bowler";
+    font-size: 20px;
+    margin-top: 33px;
+    margin-bottom: 10px;
+}
+
+.products a {
+    color: var(--orange);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+
+.f-down {
+    height: 66px;
+    text-align: center;
+}
+
+.f-down p {
+    color: var(--orange);
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    padding-top: 22px;
+}
