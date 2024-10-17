@@ -71,7 +71,7 @@ header {
 
 .one-section {
     height: 835px;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
 }
 
 .tablet {
@@ -115,7 +115,7 @@ header {
 
 .two-section .name {
     text-align: center;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     font-size: 28px;
     padding-top: 64px;
 }
@@ -135,7 +135,7 @@ header {
 .card .title {
     font-size: 28px;
     color: var(--orange);
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
 }
 
 .card .subtitle {
@@ -167,7 +167,7 @@ header {
 
 .three-section .name {
     text-align: center;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     font-size: 28px;
     padding-top: 131px;
 }
@@ -209,7 +209,7 @@ header {
 }
 
 .four-section .name {
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     font-size: 28px;
     padding-top: 80px;
 }
@@ -268,7 +268,7 @@ header {
 .five-section .name {
     text-align: center;
     font-size: 28px;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
 }
 
 .five-section .content {
@@ -308,7 +308,7 @@ header {
 
 .fio p {
     font-size: 18px;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     color: var(--white);
     margin-top: 50px;
     margin-left: 26px;
@@ -337,7 +337,7 @@ header {
 
 .email p {
     font-size: 18px;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     color: var(--white);
     margin-top: 50px;
     margin-left: 26px;
@@ -366,7 +366,7 @@ header {
 
 .topic p {
     font-size: 18px;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     color: var(--white);
     margin-top: 50px;
     margin-left: 26px;
@@ -401,7 +401,7 @@ textarea:focus {
 .button a {
     border-radius: 45px;
     width: 180px;
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     font-size: 16px;
     background-color: var(--light-black);
     padding: 15px 32px;
@@ -452,7 +452,7 @@ footer {
 }
 
 .contacts .title {
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     font-size: 20px;
     color: var(--orange);
     margin-top: 33px;
@@ -480,7 +480,7 @@ footer {
 }
 
 .about .title {
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     color: var(--orange);
     font-size: 20px;
     margin-top: 33px;
@@ -500,7 +500,7 @@ footer {
 
 .products .title {
     color: var(--orange);
-    font-family: "Bowler";
+    font-family: "Bowler", sans-serif;
     font-size: 20px;
     margin-top: 33px;
     margin-bottom: 10px;
