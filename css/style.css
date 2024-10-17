@@ -527,7 +527,7 @@ footer {
     color: var(--orange);
     font-family: "Bowler", sans-serif;
     text-transform: uppercase;
-    font-weight: 6
+    font-weight: 600;
     font-size: 20px;
     margin-top: 33px;
     margin-bottom: 10px;
